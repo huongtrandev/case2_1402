@@ -1,0 +1,205 @@
+:root {
+    --hdpgradient: linear-gradient(to bottom, #6c3377, #9748a7 );
+    --tesgradient: -webkit-linear-gradient(to right, #30CFD0 0%, #330867 100%);
+}
+.navbar {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    color: #d3c834;
+    padding-left: 8rem;
+}
+
+.nav-item:last-child {
+    padding-right: 8rem;
+}
+.fa-gem {
+    font-size: larger;
+}
+
+header a {
+    color: #d3c834;
+}
+
+header a:hover {
+    color: #9748a7;
+}
+.header-pic {
+    width: 100%;
+    height: 50rem;
+    background: linear-gradient(rgba(0,0,0,0.5), #bb59d3), 
+    url('../asset/Gemstone_Header.png');
+    background-size: cover;
+    background-position:center;  
+    position: relative;
+}
+
+.header-pic-text {
+   background: -webkit-linear-gradient(45deg, #d3c834 , #6c3377 30%, #0ce265 60%, #0cb0e2 80%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-size: 6.5rem;
+    font-weight: bolder;
+}
+
+.header-pic .header-pic-sign {
+    position: absolute;
+    top: 15rem;
+}
+
+.header-pic .header-pic-sign > i {
+    color: rgb(151, 72, 167);
+    padding-right: 2rem;
+}
+
+.header-pic .header-pic-minitext {
+    color: rgb(234, 204, 240);
+    font-size: larger;
+    font-weight: 400;
+    position: absolute;
+    top: 25rem;
+}
+
+.banner-btn {
+    margin: 70px auto 0;
+    position: absolute;
+    top: 26rem;    
+}
+.banner-btn a {
+    position: relative;
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color:#77700c;
+    background: white;
+    opacity: 0.8;
+    border-radius: 1rem;
+    z-index: 1;
+    transition: color 0.5s;
+}
+
+/* section 1 */
+
+.section-1-ht  h1 {
+    background: -webkit-linear-gradient(45deg, #e0db95 , #dfd87f 30%, #dfd768 60%, #dfd555 80%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+ 
+.section-1-ht p {
+    color: #d3c834;
+}
+
+.form-search .form-control {
+    border:1px solid #d3c834;
+    color: #d3c834;
+}
+
+.form-search button {
+    border:1px solid #d3c834;
+    color: #d3c834;
+}
+
+.form-search button:hover {
+    background: #d3c834 ;
+    border:1px solid #d3c834;
+    color: white;
+}
+
+::placeholder {
+    color: #d3c834 !important;
+}
+
+/* section 2 */
+
+.container--bordered {
+    background: #eaeff1;
+}
+
+.cardindex .cardoutline {
+    padding: 15px;
+}
+
+.cardindex .cardoutline .card img {
+    height: 20rem;
+}
+
+.cardindex .cardoutline .card .card-body {
+    background: -webkit-linear-gradient(45deg, #e0db95 , #dfd87f 30%, #dfd768 60%, #dfd555 80%);
+}
+
+/* section 3 */
+
+.section-3 .sec3-background {
+    width: 100%;
+    height: 20rem;
+    background: url('../asset/LAB4.png');
+    background-position: center; 
+    position: relative;    
+}
+
+.section-3 .sec3-headtext h1 {
+    background: -webkit-linear-gradient(45deg, #d3c834 , #6c3377 30%, #0ce265 60%, #0cb0e2 80%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 3rem 0 3rem 0;
+    text-align: center;     
+}
+
+.section-3 .sec3-subtext {
+    margin: 2rem 0 2rem 0; 
+}
+
+.section-3 .sec3-subtext .subtext {
+    color:#6c3377;      
+}
+
+.section-3 .sec3-subtext a {
+    background: -webkit-linear-gradient(45deg, #e0db95 , #dfd87f 30%, #dfd768 60%, #dfd555 80%);
+}
+
+/* footer */
+
+.foot-background {
+    background:-webkit-linear-gradient(45deg, #e0db95 , #dfd87f 30%, #dfd768 60%, #dfd555 80%);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #ada316;    
+}
+
+.foot-main {
+    text-align: justify;
+}
+.foot-main ul i {
+    padding: 0 5px 0 5px;
+    font-size: larger;
+}
+
+.infomation .info-column ul {
+    margin: 0;
+    padding: 0;
+}
+
+.infomation .info-column ul li {
+    list-style: none;
+    text-decoration: none;    
+}
+
+.infomation .info-column ul li a {
+    text-decoration: none;
+    color: #6c3377;    
+}
+
+.copyright {
+    margin: 15px 0 15px 0;
+    text-align: center;
+    font-weight:bold;
+}
+

@@ -1,0 +1,70 @@
+@media only screen and (max-width:1060px) {
+    
+    .header-pic .header-pic-minitext {
+        position: absolute;
+        top: 35rem;
+    }
+
+    .banner-btn {        
+        position: absolute;
+        top: 27rem;
+    } 
+}
+
+@media only screen and (max-width:768px) {
+    .header-pic {
+        position: relative;
+    }
+    .header-pic-text {
+        font-size: 2.5rem;
+    }
+    .header-pic .header-pic-minitext {
+        position: absolute;
+        top: 20rem;
+        padding: 0 60px 0 60px;
+    }
+
+    .banner-btn {        
+        position: absolute;
+        top: 24rem;
+    } 
+}
+
+@media only screen and (max-width: 576px) {
+    .navbar-head {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        padding-left: 0;
+    }
+    .header-pic {
+        width: 100%;
+        height: 30rem;
+        margin: 0;
+    }
+
+    .header-pic-text {
+        font-size: 2rem;   
+    }
+
+    .header-pic .header-pic-sign {
+        position: absolute;
+        top: 8rem;
+    }
+
+    .header-pic .header-pic-minitext {
+        display: none;
+    }
+
+    .header-pic .banner-btn {
+        position: absolute;
+        top: 10rem;
+    }
+    .header-pic .banner-btn a {
+        margin-bottom: 2rem;
+    }
+} 
+
+
+
