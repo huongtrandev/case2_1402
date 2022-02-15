@@ -1,0 +1,137 @@
+:root {
+    --hdpgradient: linear-gradient(to bottom, #6c3377, #9748a7 );
+    --tesgradient: -webkit-linear-gradient(to right, #30CFD0 0%, #330867 100%);
+}
+.navbar {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    color: #d3c834;
+    padding-left: 8rem;
+}
+
+.nav-item:last-child {
+    padding-right: 8rem;
+}
+.fa-gem {
+    font-size: larger;
+}
+
+header a {
+    color: #d3c834;
+}
+
+header a:hover {
+    color: #9748a7;
+}
+.header-pic {
+    width: 100%;
+    height: 20rem;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    url('../asset/LAB5.jpg');
+    background-size: cover;
+    background-position:center;  
+    position: relative;
+}
+
+.header-pic-text {  
+    color:#d3c834;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.header-pic .header-pic-sign {
+    position: absolute;
+    top: 8rem;
+    left: 5rem;
+}
+
+.next-text h3 {
+    color: #d3c834;
+    text-align: center;
+    margin: 2rem auto 1rem auto;
+}
+
+hr {
+    width: 15%;
+    border-top: 1px solid #d3c834;    
+}
+
+.next-text p {
+    text-align: center;
+    font-size: larger;
+    color: #d3c834;
+}
+
+
+.certification {
+    padding: 4rem 2rem 4rem 5rem;
+    background:-webkit-linear-gradient(45deg,  #91880d, #beb314 30%, #dfd87f 60%, #e0db95 80%);
+}
+
+.certification h1 {
+    color: #9748a7;
+    font-weight: lighter;
+   
+    border-bottom: #9748a7 1px solid;
+}
+
+.certification h5 {
+    color: #ffffff;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.certification p {
+    color: #ffffff;
+    margin: 0;
+}
+
+.certification button {
+    margin-top: 2rem;
+}
+
+.certification-img {
+    text-align: center;
+}
+
+.certification-img img {
+    box-shadow: 0px 20px 60px rgb(212, 21, 101);
+}
+
+.foot-background {
+    
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #ada316;   
+}
+
+.foot-main {
+    text-align: justify;
+}
+.foot-main ul i {
+    padding: 0 5px 0 5px;
+    font-size: larger;
+}
+
+.infomation .info-column ul {
+    margin: 0;
+    padding: 0;
+}
+
+.infomation .info-column ul li {
+    list-style: none;
+    text-decoration: none;    
+}
+
+.infomation .info-column ul li a {
+    text-decoration: none;
+    color: #6c3377;    
+}
+
+.copyright {
+    margin: 15px 0 15px 0;
+    text-align: center;
+    font-weight:bold;
+}
